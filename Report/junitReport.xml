@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.314">
+    <testcase classname="Ecommerce Application" name="Home Page" time="0.055">
+        <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;com.BaseClassAzamon.BaseClassAz.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given user Launch The Application...........................................failed
+When user Select The Drop Down..............................................skipped
+And user Enter Product In Searchbox.........................................skipped
+Then user Click The Search Option...........................................skipped
+And user Get Text All Search Items..........................................skipped
+Then user Match With The Text...............................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "com.BaseClassAzamon.BaseClassAz.driver" is null
+	at com.BaseClassAzamon.BaseClassAz.currentUrl(BaseClassAz.java:37)
+	at com.stepdefinition.AmazonStepDef.user_Launch_The_Application(AmazonStepDef.java:36)
+	at ✽.user Launch The Application(file:///Users/r.harish/eclipse-workspace/Amazon/src/test/java/com/feature/Amazon.feature:3)
+]]></failure>
+    </testcase>
+</testsuite>
